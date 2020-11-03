@@ -1,11 +1,11 @@
 <?php
     echo "First DB Connection!";
 
-    $db = pg_connect("ec2-3-214-46-194.compute-1.amazonaws.com
-                dbname=d6bq1npck5mqga
+    $db = pg_connect("host=ec2-34-200-72-77.compute-1.amazonaws.com
+                dbname=dec6cnnpb551m6
                 port=5432
-                user=jgcueqvfawmkuu
-                password=e1112f9db8e9077a1835d208a8ffedda8c89c220ae2b5960e76bc38addcf1ed1");
+                user=mscadanwunvapm
+                password=c61a80cb7559f9f131577c427abca1c218470de15f12ac8a82c2cd8b10a1f4bb");
    
     echo "Script Executed!";
 ?>
